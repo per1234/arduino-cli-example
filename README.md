@@ -1,1 +1,2 @@
-# arduino-cli-example
+# arduino/compile-sketches action demo
+
