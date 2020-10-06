@@ -1,0 +1,24 @@
+name: Compile sketch
+
+# The workflow will run on every push and pull request to the repository
+on:
+  - push
+  - pull_request
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+
+    steps:
+      # This step makes the contents of the repository available to the workflow
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      
+      # See: https://github.com/arduino/compile-sketches/README.md
+      - name: Compile sketch
+        # TODO: change to @v1 after the release
+        uses: arduino/compile-sketches@main
+        with:
+          libraries: |
+            # This sketch doesn't use any libraries, so just define an empty array
+            -
