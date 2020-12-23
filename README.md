@@ -2,7 +2,7 @@
 
 ![Compile sketch](https://github.com/arduino/arduino-cli-example/workflows/Compile%20sketch/badge.svg)
 
-This repository is the companion of a article on Arduino's blog about tools for continuous integration testing of Arduino sketches with GitHub Actions.
+This repository is the companion of an article on Arduino's blog about tools for continuous integration testing of Arduino sketches with GitHub Actions.
 
 It only serves as a basic demonstration of the [`arduino/compile-sketches` GitHub Actions action](https://github.com/arduino/compile-sketches).
 
