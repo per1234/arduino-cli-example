@@ -1,4 +1,4 @@
-# arduino/compile-sketches action demo
+# `arduino/compile-sketches` action demo
 
 ![Compile sketch](https://github.com/arduino/arduino-cli-example/workflows/Compile%20sketch/badge.svg)
 
